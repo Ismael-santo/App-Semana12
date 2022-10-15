@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/JGSR"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/login"
+        />
+
+    <EditText
+        android:id="@+id/et_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:gravity="center"
+        android:hint="Ingrese Un Usuario"
+        android:inputType="text"
+        android:textColor="#F40333"
+        android:textColorHighlight="#F4031F"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/JGSR" />
+
+    <EditText
+        android:id="@+id/et_pasword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese La Contraseña"
+        android:gravity="center"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:inputType="textPassword"
+        android:textColor="#F40333"
+        android:textColorHint="@color/white"
+        android:textColorHighlight="#F40333"
+        android:textColorLink="@color/JGSR"
+        />
+
+    <Button
+        android:id="@+id/btn_iniciarS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inciar Seccion"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/btn_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        />
+
+</LinearLayout>
