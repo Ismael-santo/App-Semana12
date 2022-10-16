@@ -26,10 +26,46 @@
         />
 
     <EditText
+        android:id="@+id/et_id_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduzca Un Id"
+        android:inputType="text"
+        android:textColor="@color/JGSR"
+        android:textColorHint="@color/blue"
+        android:textStyle="italic"
+        android:gravity="center"
+        />
+
+    <EditText
         android:id="@+id/et_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Introduzca Un Nombre"
+        android:inputType="text"
+        android:textColor="@color/JGSR"
+        android:textColorHint="@color/blue"
+        android:textStyle="italic"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/et_apellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduzca Sus apellidos"
+        android:inputType="text"
+        android:textColor="@color/JGSR"
+        android:textColorHint="@color/blue"
+        android:textStyle="italic"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/et_gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduzca Su Correo Electronico"
         android:inputType="text"
         android:textColor="@color/JGSR"
         android:textColorHint="@color/blue"
@@ -60,12 +96,46 @@
         android:gravity="center"
         android:textStyle="italic"
         />
-
     <EditText
-        android:id="@+id/et_edad"
+        android:id="@+id/et_tipo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ingrese Su Edad"
+        android:hint="Introduzca Un Tipo"
+        android:inputType="text"
+        android:textColor="@color/JGSR"
+        android:textColorHint="@color/blue"
+        android:textStyle="italic"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/et_estado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduzca Un Estado"
+        android:inputType="text"
+        android:textColor="@color/JGSR"
+        android:textColorHint="@color/blue"
+        android:textStyle="italic"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/et_pregunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese Su Pregunta"
+        android:inputType="number"
+        android:textColor="@color/JGSR"
+        android:textColorHint="@color/blue"
+        android:gravity="center"
+        android:textStyle="italic"
+        />
+
+    <EditText
+        android:id="@+id/et_respuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese Su Respuesta"
         android:inputType="number"
         android:textColor="@color/JGSR"
         android:textColorHint="@color/blue"

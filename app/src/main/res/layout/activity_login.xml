@@ -27,7 +27,8 @@
         android:textColor="#F40333"
         android:textColorHighlight="#F4031F"
         android:textColorHint="@color/white"
-        android:textColorLink="@color/JGSR" />
+        android:textColorLink="@color/JGSR"
+        />
 
     <EditText
         android:id="@+id/et_pasword"
